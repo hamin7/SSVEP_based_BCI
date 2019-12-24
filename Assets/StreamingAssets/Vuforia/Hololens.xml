@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Silver_Bulb_Icon" size="200.000000 191.359589" />
+    <ImageTarget name="Red_Bulb_Icon" size="200.000000 199.188095" />
+    <ImageTarget name="Black_Bulb_Icon" size="200.000000 199.261993" />
     <ImageTarget name="irregular_pattern_bulb" size="100.000000 100.000000" />
     <ImageTarget name="Irregular_Pattern_AC" size="20.000000 20.000000" />
     <ImageTarget name="RVC_Pattern" size="1.000000 0.961905" />
     <ImageTarget name="HUM_Pattern" size="1.000000 0.961905" />
     <ImageTarget name="AIR_Pattern" size="1.000000 0.997525" />
-    <ImageTarget name="Hum" size="1.000000 1.000000" />
-    <ImageTarget name="Robotv" size="1.000000 1.000000" />
-    <ImageTarget name="Airpurifier" size="1.000000 1.000000" />
-    <ImageTarget name="Humidifier" size="1.000000 1.000000" />
-    <ImageTarget name="AirPurfier" size="1.000000 1.000000" />
-    <ImageTarget name="RobotVacum" size="1.000000 1.000000" />
   </Tracking>
 </QCARConfig>

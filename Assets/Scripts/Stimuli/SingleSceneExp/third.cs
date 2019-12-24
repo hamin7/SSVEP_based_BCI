@@ -102,6 +102,45 @@ public class third : MonoBehaviour
                 }
             }
         }
+        else if (MarkerControl.SelectedMarker == "Black_Bulb")
+        {
+            for (int i = 0; i < Commands.Length; i++)
+            {
+                if (Commands[i].name == "Black_Bulb")
+                    Command = Commands[i]; //Commands의 첫번째 선택
+
+                else
+                {
+                    Commands[i].color = new Color(0f, 0f, 0f, 0f);
+                }
+            }
+        }
+        else if (MarkerControl.SelectedMarker == "Red_Bulb")
+        {
+            for (int i = 0; i < Commands.Length; i++)
+            {
+                if (Commands[i].name == "Red_Bulb")
+                    Command = Commands[i]; //Commands의 첫번째 선택
+
+                else
+                {
+                    Commands[i].color = new Color(0f, 0f, 0f, 0f);
+                }
+            }
+        }
+        else if (MarkerControl.SelectedMarker == "Silver_Bulb")
+        {
+            for (int i = 0; i < Commands.Length; i++)
+            {
+                if (Commands[i].name == "Silver_Bulb")
+                    Command = Commands[i]; //Commands의 첫번째 선택
+
+                else
+                {
+                    Commands[i].color = new Color(0f, 0f, 0f, 0f);
+                }
+            }
+        }
         currentScale = 0;
         GOtransform.localScale = scales[currentScale];
         GOspriterenderer.color = colors[currentScale];

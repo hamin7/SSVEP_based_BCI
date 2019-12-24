@@ -143,10 +143,10 @@
     <None Include="Assets\Editor\Vuforia\TargetsetData\Hololens_info.xml" />
     <None Include="Assets\Editor\Vuforia\Emulator\VuforiaEmulator.xml" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/SSVEP_based_BCI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/SSVEP_based_BCI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
@@ -398,16 +398,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="GLTFSerialization">
-      <HintPath>D:/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-Editor">
-      <HintPath>D:/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-Runtime">
-      <HintPath>D:/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/my/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

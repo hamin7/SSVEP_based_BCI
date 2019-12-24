@@ -807,7 +807,6 @@
     <Compile Include="Assets\Vuforia\Scripts\DefaultInitializationErrorHandler.cs" />
     <Compile Include="Assets\Vuforia\Scripts\DefaultTrackableEventHandler.cs" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-    <None Include="Assets\StreamingAssets\Vuforia\Hololens.xml" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\Hololens_OT.xml" />
     <None Include="Assets\HoloToolkit\HoloToolkit\Utilities\Scripts\GLTF\Shaders\GLTFConstant.cginc" />
@@ -842,6 +841,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
     <None Include="Assets\HoloToolkit-Examples\Medical\Shaders\math.cginc" />
     <None Include="Assets\HoloToolkit\HoloToolkit\Common\Shaders\Obsolete\UnlitNoDepthTest.shader" />
+    <None Include="Assets\StreamingAssets\Vuforia\Hololens.xml" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
     <None Include="Assets\HoloToolkit\HoloToolkit\UX\Fonts\LICENSE.txt" />
     <None Include="Assets\HoloToolkit\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurableTransparent.shader" />
@@ -899,10 +899,10 @@
     <None Include="Assets\HoloToolkit\HoloToolkit\Common\Shaders\Obsolete\UnlitConfigurable.cginc" />
     <None Include="Assets\HoloToolkit\HoloToolkit\UX\Shaders\3DTextShader.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/SSVEP_based_BCI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/SSVEP_based_BCI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/MetroSupport/Tools/UnityEngine.AIModule.dll</HintPath>
@@ -1103,16 +1103,16 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="GLTFSerialization">
-      <HintPath>D:/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/GLTFSerialization/GLTFSerialization.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/HoloToolkit/HoloToolkit/Utilities/Scripts/GLTF/Plugins/JsonNet/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-Editor">
-      <HintPath>D:/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Editor.dll</HintPath>
     </Reference>
     <Reference Include="TextMeshPro-2017.3-Runtime">
-      <HintPath>D:/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
+      <HintPath>C:/Users/my/Documents/GitHub/SSVEP_based_BCI/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/my/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
