@@ -15,6 +15,12 @@
   <li> CES_2020_191221 <br>
     - 시간기반
   </li>
+  <li> Dev_Ctr_191223 <br>
+    - Hololens+Vuforia+UDP_ver6 기반 (2019.10.17, version)<br>
+    - Dev_Ctr_191203 버전 반영. <br>
+    - 프레임 기반 <br>
+    - 로봇청소기, 공기청정기, 가습기, 에어컨,  <br>
+  </li>
   <li> SSVEP_based_BCI - 2019.12.24_ver <br>
     - Hololens+Vuforia+UDP_ver6 기반 (2019.10.17, version)<br>
     - Dev_Ctr_191203 버전 반영. <br>
@@ -26,7 +32,7 @@
 ## 해결해야 할 사항
 ### QR Scene
 <ol>
-  ~~<li> Vuforia 이미지 타겟 세가지 전구 추가 (QR Scene) </li>~~
+  <li> ~~Vuforia 이미지 타겟 세가지 전구 추가 (QR Scene)~~ </li>
   
   <li> Command 선택 기능 : 시간기반 -> 프레임 기반 수정</li>
   <li> Commands_Bulb 아이콘들 추가 (Star2 -> RGB, Star3 -> Brightness) </li>
@@ -48,6 +54,7 @@
   <li> Eye Scene UDP 씹히는 문제</li>
   <li> 미들웨어와의 UDP 통신 코드 통일 문제</li>
   <li> 기능 선택 화면 Bulb에 맞게 고치기</li>
+  <li> Help에 전구들 추가 (원래 있던 공기청정기 등은 제거해야 하는가?) </li>
 </ol>
 
 ## Vuforia Image Target
