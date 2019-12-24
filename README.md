@@ -15,6 +15,12 @@
   <li> CES_2020_191221 <br>
     - 시간기반
   </li>
+  <li> Dev_Ctr_191223 <br>
+    - Hololens+Vuforia+UDP_ver6 기반 (2019.10.17, version)<br>
+    - Dev_Ctr_191203 버전 반영. <br>
+    - 프레임 기반 <br>
+    - 메리크리스마스 <br>
+  </li>
   <li> SSVEP_based_BCI - 2019.12.24_ver <br>
     - Hololens+Vuforia+UDP_ver6 기반 (2019.10.17, version)<br>
     - Dev_Ctr_191203 버전 반영. <br>
