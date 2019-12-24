@@ -28,7 +28,7 @@
 ## 해결해야 할 사항
 ### QR Scene
 <ol>
-  <li> ~~Vuforia 이미지 타겟 세가지 전구 추가 (QR Scene)~~ </li>
+  ~~<li> Vuforia 이미지 타겟 세가지 전구 추가 (QR Scene) </li>~~
   
   <li> Command 선택 기능 : 시간기반 -> 프레임 기반 수정</li>
   <li> Commands_Bulb 아이콘들 추가 (Star2 -> RGB, Star3 -> Brightness) </li>
