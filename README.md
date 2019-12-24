@@ -1,5 +1,30 @@
 # BCI_Hololnes_Bulb_Control
 
+## 버전 관리
+<ol>
+  <li> Hololens+Vuforia+UDP_ver6 - 2019.10.21. 시연용 -  <br>
+    - Hololens+Vuforia+UDP_ver5 기반 (2019.10.17, version)<br>
+    - Broadcast 미 반영 <br>
+  </li>
+  <li> Dev_Ctr_어쩌구 (191125??, 시연용)<br>
+    - 프레임기반
+  </li>
+  <li> Device_Control_191127 <br>
+    - 시간기반, 자극 사이 대기시간 +8초
+  </li>
+  <li> Dev_Ctr_191203 <br>
+    - Eye Scene 카운트 다운 
+  </li>
+  <li> CES_2020_191221 <br>
+    - 시간기반
+  </li>
+  <li> SSVEP_based_BCI 2019.12.24. <br>
+    - Hololens+Vuforia+UDP_ver6 기반 (2019.10.17, version)<br>
+    - Dev_Ctr_191203 버전 반영.
+    - 프레임 기반
+  </li>
+</ol>
+
 ## 해결해야 할 사항
 ### QR Scene
 <ol>
@@ -32,30 +57,7 @@
   width는 mm 단위로 임의로 200로 설정 함
 </ul>
 
-## 버전 관리
-<ol>
-  <li> Hololens+Vuforia+UDP_ver6 - 2019.10.21. 시연용 -  <br>
-    - Hololens+Vuforia+UDP_ver5 기반 (2019.10.17, version)<br>
-    - Broadcast 미 반영 <br>
-  </li>
-  <li> Dev_Ctr_어쩌구 (191125??, 시연용)<br>
-    - 프레임기반
-  </li>
-  <li> Device_Control_191127 <br>
-    - 시간기반, 자극 사이 대기시간 +8초
-  </li>
-  <li> Dev_Ctr_191203 <br>
-    - Eye Scene 카운트 다운 
-  </li>
-  <li> CES_2020_191221 <br>
-    - 시간기반
-  </li>
-  <li> SSVEP_based_BCI 2019.12.24. <br>
-    - Hololens+Vuforia+UDP_ver6 기반 (2019.10.17, version)<br>
-    - Dev_Ctr_191203 버전 반영.
-    - 프레임 기반
-  </li>
-</ol>
+
 
 ## 이미지 편집 툴
 <ol>
