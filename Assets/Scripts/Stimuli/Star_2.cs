@@ -46,6 +46,18 @@ public class Star_2 : MonoBehaviour
         {
             Icon = transform.Find("Bulb").transform.GetComponent<SpriteRenderer>();
         }
+        else if (ForTest_UDPresponder.ApplianceSelect == "MiddleWare#HanYang#SelectDevice#Black_Bulb")//패킷의 정의 논의 필요
+        {
+            Icon = transform.Find("Black_Bulb").transform.GetComponent<SpriteRenderer>();
+        }
+        else if (ForTest_UDPresponder.ApplianceSelect == "MiddleWare#HanYang#SelectDevice#Red_Bulb")//패킷의 정의 논의 필요
+        {
+            Icon = transform.Find("Red_Bulb").transform.GetComponent<SpriteRenderer>();
+        }
+        else if (ForTest_UDPresponder.ApplianceSelect == "MiddleWare#HanYang#SelectDevice#Silver_Bulb")//패킷의 정의 논의 필요
+        {
+            Icon = transform.Find("Silver_Bulb").transform.GetComponent<SpriteRenderer>();
+        }
         else
         {
             Icon = transform.GetChild(0).transform.GetComponent<SpriteRenderer>();
