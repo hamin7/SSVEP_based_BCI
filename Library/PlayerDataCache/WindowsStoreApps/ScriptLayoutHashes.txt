@@ -43,7 +43,7 @@ c7dd12c15208b0447e101f80038706df UnityEngine.Timeline.dll:UnityEngine.Timeline.A
 c4201782336f8cb81da9e1de26843a09 Assembly-CSharp.dll:HoloToolkit.Examples.Prototyping.CycleScale
 70e8256be7885a9dd7cd0284483da9e8 Assembly-CSharp.dll:HoloToolkit.Unity.Buttons.ButtonSoundProfile
 a03a8bf72c431fed8756a3e1772bb0ae Assembly-CSharp.dll:HoloToolkit.Unity.UX.LineObjectFollower
-40d6b2dd01808029a61097cf881b7830 Assembly-CSharp.dll:HoloToolkit.Unity.Collections.ObjectCollection
+985ec5843b1437f797b9fa8c62a605a2 Assembly-CSharp.dll:HoloToolkit.Unity.Collections.ObjectCollection
 2bac351b2e5d8cf25c17d1206b788f20 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Tests.PopupMenu
 6b6a4db912855230c552ff25f964bc42 Assembly-CSharp.dll:HoloToolkit.Unity.UX.DistorterWiggly
 3bb1f84adfae225177e7be0cdfc24644 Assembly-CSharp.dll:HoloToolkit.Unity.InputModule.Tests.DisplaySpeechKeywords
