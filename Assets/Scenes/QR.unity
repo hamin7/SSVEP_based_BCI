@@ -2231,7 +2231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   internalPort: 8053
-  externalIP: 192.168.1.37
+  externalIP: 255.255.255.255
   externalPort: 8053
   sendPingAtStart: 0
   PingMessage: udp testing

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/SSVEP.unity
+- path: Assets/Scenes/Eye.unity
   isLoaded: 1
   isActive: 1

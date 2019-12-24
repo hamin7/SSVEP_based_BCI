@@ -378,6 +378,11 @@ Prefab:
       propertyPath: EndTrigger
       value: HololenseHY#Star#01#End
       objectReference: {fileID: 0}
+    - target: {fileID: 114692264912471128, guid: 0995f608480e1a346964bbfb8da04862,
+        type: 2}
+      propertyPath: externalIP
+      value: 255.255.255.255
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0995f608480e1a346964bbfb8da04862, type: 2}
   m_IsPrefabAsset: 0
@@ -1368,6 +1373,11 @@ Prefab:
       value: 
       objectReference: {fileID: 21300000, guid: d206903fff4523643bfb2ae8bbd9370d,
         type: 3}
+    - target: {fileID: 114692264912471128, guid: 0995f608480e1a346964bbfb8da04862,
+        type: 2}
+      propertyPath: externalIP
+      value: 255.255.255.255
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0995f608480e1a346964bbfb8da04862, type: 2}
   m_IsPrefabAsset: 0
