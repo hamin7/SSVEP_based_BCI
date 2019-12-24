@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
+  <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2018-10-10 14:57:39" name="BTaudio" targetId="7108289d59df48a0b9ef99a0ab69901c" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2018-10-10 14:19:43" name="Spray" targetId="431ba88489fc42d6aec37de1e07dc54e" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2018-10-08 13:56:02" name="headset" targetId="7918a7a5ad0343eaa636f903cb8da45d" version="2.0" />
+  </TargetSet>
+</QCARInfo>
