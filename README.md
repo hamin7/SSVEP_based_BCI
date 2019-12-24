@@ -2,7 +2,7 @@
 
 ## 버전 관리
 <ol>
-  <li> Hololens+Vuforia+UDP_ver6 - 2019.10.21. (Total_Softbank 시연용) -  <br>
+  <li> Hololens+Vuforia+UDP_ver6 - 2019.10.21. (Total Softbank 시연용)   <br>
     - Hololens+Vuforia+UDP_ver5 기반 (2019.10.17, version)<br>
     - Broadcast 미 반영 <br>
   </li>
