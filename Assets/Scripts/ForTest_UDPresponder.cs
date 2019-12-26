@@ -147,7 +147,7 @@ public class ForTest_UDPresponder : MonoBehaviour {
 
         //if (dataString == '4'.ToString())
         /*HM 중요- 돌아가기 UDP값 미들웨어에서 추가되면   ||(or) 더해주기  */
-        if (dataString == "MiddleWare#HanYang#RVC#Home" || dataString == "MiddleWare#HanYang#AirCleaner#Home" || dataString == "MiddleWare#HanYang#AirConditioner#Home" || dataString == "MiddleWare#HanYang#Bulb#Home")
+        if (dataString == "MiddleWare#HanYang#RVC#Home" || dataString == "MiddleWare#HanYang#AirCleaner#Home" || dataString == "MiddleWare#HanYang#AirConditioner#Home" || dataString == "MiddleWare#HanYang#Bulb#Home" || dataString == "MiddleWare#HanYang#Silver_Bulb#Home" || dataString == "MiddleWare#HanYang#Black_Bulb#Home" || dataString == "MiddleWare#HanYang#Red_Bulb#Home")
         {
             //기기선택단계로 돌아가도록 씬 다시 로드
             isQRFirstStage = false;
@@ -221,14 +221,20 @@ public class ForTest_UDPresponder : MonoBehaviour {
                     StimuliSet.SetActive(true);
                 break;
 
-                case "6":
+                case "MiddleWare#HanYang#SelectDevice#Silver_Bulb":
+                    Spots.SetActive(false);
+                    StimuliSet.SetActive(true);
                     break;
 
-                case "7":
-                    break;
+                case "MiddleWare#HanYang#SelectDevice#Black_Bulb":
+                    Spots.SetActive(false);
+                    StimuliSet.SetActive(true);
+                break;
 
-                case "8":
-                    break;
+                case "MiddleWare#HanYang#SelectDevice#Red_Bulb":
+                    Spots.SetActive(false);
+                    StimuliSet.SetActive(true);
+                break;
 
                 case "9":
                     break;
@@ -282,6 +288,24 @@ public class ForTest_UDPresponder : MonoBehaviour {
                 break;
 
             case "MiddleWare#HanYang#SelectDevice#Bulb":
+                StimuliSet.transform.position = ApplianceStimuli.transform.position;
+                ApplianceStimuli.SetActive(false);
+                StimuliSet.SetActive(true);
+                break;
+
+            case "MiddleWare#HanYang#SelectDevice#Silver_Bulb":
+                StimuliSet.transform.position = ApplianceStimuli.transform.position;
+                ApplianceStimuli.SetActive(false);
+                StimuliSet.SetActive(true);
+                break;
+
+            case "MiddleWare#HanYang#SelectDevice#Black_Bulb":
+                StimuliSet.transform.position = ApplianceStimuli.transform.position;
+                ApplianceStimuli.SetActive(false);
+                StimuliSet.SetActive(true);
+                break;
+
+            case "MiddleWare#HanYang#SelectDevice#Red_Bulb":
                 StimuliSet.transform.position = ApplianceStimuli.transform.position;
                 ApplianceStimuli.SetActive(false);
                 StimuliSet.SetActive(true);
