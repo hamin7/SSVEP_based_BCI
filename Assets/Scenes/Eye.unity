@@ -4519,7 +4519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CenterOfStimuli: {fileID: 1988006155}
   DirectionalLight: {fileID: 140350610}
-  IconDurationTime: 10
+  IconDurationTime: 10000
 --- !u!4 &1721854022 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4041910112356074, guid: 2f1001e185824e3408fc31c90cbe0bdb,
