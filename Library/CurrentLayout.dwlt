@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 887, y: 492}
   m_MaxSize: {x: 16012, y: 14042}
   vertical: 0
-  controlID: 115
+  controlID: 90
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 492}
   m_MaxSize: {x: 12010, y: 14042}
   vertical: 1
-  controlID: 116
+  controlID: 91
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 610, y: 221}
   m_MaxSize: {x: 12010, y: 4021}
   vertical: 0
-  controlID: 117
+  controlID: 92
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -206,7 +206,7 @@ MonoBehaviour:
   m_MinSize: {x: 408, y: 221}
   m_MaxSize: {x: 8008, y: 4021}
   vertical: 0
-  controlID: 118
+  controlID: 93
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -374,7 +374,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.054261155, y: -0.034435302, z: 0.0018751175, w: -0.9979371}
     speed: 2
-    m_Value: {x: -0.05426083, y: -0.034435097, z: 0.0018751064, w: -0.9979311}
+    m_Value: {x: -0.054261155, y: -0.034435302, z: 0.0018751175, w: -0.99793714}
   m_Size:
     m_Target: 7.2465167
     speed: 2
@@ -417,9 +417,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 88550000
+    m_SelectedIDs: da550000
     m_LastClickedID: 0
-    m_ExpandedIDs: 7afbffff7cfbffff7efbffff84fbffffe0fbffff00000000
+    m_ExpandedIDs: b2dcffffe0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -438,7 +438,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
   m_ExpandedScenes:
-  - SSVEP
+  - Eye
   m_CurrenRootInstanceID: 0
   m_LockTracker:
     m_IsLocked: 0
@@ -626,20 +626,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/ICON
+    - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 89
   m_LastFolders:
-  - Assets/ICON
+  - Assets/Scenes
   m_LastFoldersGridSize: 89
   m_LastProjectPath: C:\Users\my\Documents\GitHub\SSVEP_based_BCI
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 102}
-    m_SelectedIDs: 3a550000
-    m_LastClickedID: 21818
-    m_ExpandedIDs: 00000000c03d0000e03d0000e23e0000fa3e00003c3f000018410000d0470000a04b00001a4c0000e64c0000404d0000a24f0000705000003a520000b4540000fc54000096560000ea5a000000ca9a3b
+    scrollPos: {x: 0, y: 86}
+    m_SelectedIDs: 84460000
+    m_LastClickedID: 18052
+    m_ExpandedIDs: 00000000c03d0000e03d0000e23e0000fa3e00003c3f000018410000d04700009c4b0000164c0000e24c00003c4d00009e4f00006c50000036520000b0540000f854000092560000e65a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c03d0000e03d0000e23e0000fa3e00003c3f000018410000d0470000a04b00001a4c0000e64c0000404d0000a24f0000705000003a520000b4540000fc54000096560000ea5a0000
+    m_ExpandedIDs: 00000000c03d0000e03d0000e23e0000fa3e00003c3f000018410000d04700009c4b0000164c0000e24c00003c4d00009e4f00006c50000036520000b0540000f854000092560000e65a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,7 +719,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1509}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 89
   m_DirectoriesAreaWidth: 185
 --- !u!114 &20

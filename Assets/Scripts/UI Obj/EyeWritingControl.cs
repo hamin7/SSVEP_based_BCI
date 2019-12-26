@@ -63,7 +63,8 @@ public class EyeWritingControl : MonoBehaviour {
         //쉬는 타임에는 조명 살짝 어둡게
         DirectionalLight.color = Color.black;
 
-        yield return new WaitForSeconds(0.2f);
+        // 카운트 다운과 맞추기 위해 없앰
+        // yield return new WaitForSeconds(0.2f);
 
 
         yield return new WaitForSeconds(1f);

@@ -54,6 +54,21 @@ public class UDPGeneration : MonoBehaviour {
                     DataStringMiddleWare = "HanYang#QR#5";
                     DataStringMatlab = "5";
                 }
+                else if (MarkerControl.SelectedMarker == "Silver_Bulb")
+                {
+                    DataStringMiddleWare = "HanYang#QR#6";
+                    DataStringMatlab = "6";
+                }
+                else if (MarkerControl.SelectedMarker == "Black_Bulb")
+                {
+                    DataStringMiddleWare = "HanYang#QR#7";
+                    DataStringMatlab = "7";
+                }
+                else if (MarkerControl.SelectedMarker == "Red_Bulb")
+                {
+                    DataStringMiddleWare = "HanYang#QR#8";
+                    DataStringMatlab = "8";
+                }
                 /*
                  * HM중요 - 기기 추가시 이런 형태로 else if 문단 하나 더 추가해주기
                 else if (MarkerControl.SelectedMarker == "게임오브젝트 이름")
