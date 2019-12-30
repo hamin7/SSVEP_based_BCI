@@ -379,6 +379,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   setting: {fileID: 1499736440}
   CenterOfStimuli: {fileID: 1988006155}
+  Silver: {fileID: 0}
+  Red: {fileID: 0}
+  RVC: {fileID: 0}
+  Black: {fileID: 0}
   FrameCount: 8
 --- !u!212 &247531112
 SpriteRenderer:
@@ -1014,6 +1018,10 @@ Prefab:
       propertyPath: CenterOfStimuli
       value: 
       objectReference: {fileID: 844392509}
+    - target: {fileID: 4041910112356074, guid: 2f1001e185824e3408fc31c90cbe0bdb, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 0.09
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f1001e185824e3408fc31c90cbe0bdb, type: 2}
   m_IsPrefabAsset: 0
@@ -1045,10 +1053,9 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 464322684}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.1, y: 6.320014, z: 0.10000029}
+  m_LocalPosition: {x: -3.68, y: 6.320014, z: 0.10000029}
   m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
-  m_Children:
-  - {fileID: 1452813125}
+  m_Children: []
   m_Father: {fileID: 1069655322}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1300,7 +1307,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 602277563}
-  m_Text: Black Bulb
+  m_Text: Black Light
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1803,7 +1810,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 850178022}
-  m_Text: 'Red Bulb
+  m_Text: 'Red Light
 
 '
   m_OffsetZ: 0
@@ -2287,6 +2294,7 @@ Transform:
   m_LocalScale: {x: 0.35, y: 0.35, z: 1.69}
   m_Children:
   - {fileID: 464322685}
+  - {fileID: 1452813125}
   m_Father: {fileID: 458290258}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3047,11 +3055,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1452813124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.9, y: 0.97, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: -2.1499996, y: 6.8050184, z: 0.10000064}
+  m_LocalScale: {x: 1, y: 1, z: 0.8500005}
   m_Children: []
-  m_Father: {fileID: 464322685}
-  m_RootOrder: 0
+  m_Father: {fileID: 1069655322}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!102 &1452813126
 TextMesh:
@@ -3060,14 +3068,14 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1452813124}
-  m_Text: Silver Bulb
+  m_Text: Silver Light
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
-  m_FontSize: 8
+  m_FontSize: 14
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}

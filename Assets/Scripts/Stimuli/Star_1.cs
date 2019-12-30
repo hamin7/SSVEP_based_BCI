@@ -24,6 +24,10 @@ public class Star_1 : MonoBehaviour
     SpriteRenderer Icon;
 
     public TextMesh CenterOfStimuli;
+    public TextMesh Silver;
+    public TextMesh Red;
+    public TextMesh RVC;
+    public TextMesh Black;
     public int FrameCount;
 
     //시간기반
@@ -66,16 +70,31 @@ public class Star_1 : MonoBehaviour
 
         CenterOfStimuli.fontSize = 170;
         CenterOfStimuli.text = "3";
+        RVC.text = "RVC";
+        Silver.text = "Silver";
+        Red.text = "Red";
+        Black.text = "Black";
         yield return new WaitForSeconds(1f);
 
         CenterOfStimuli.text = "2";
+        RVC.text = "RVC";
+        Silver.text = "Silver";
+        Red.text = "Red";
+        Black.text = "Black";
         yield return new WaitForSeconds(1f);
 
         CenterOfStimuli.text = "1";
+        RVC.text = "RVC";
+        Silver.text = "Silver";
+        Red.text = "Red";
+        Black.text = "Black";
         yield return new WaitForSeconds(1f);
 
         CenterOfStimuli.text = "";
-
+        RVC.text = "RVC";
+        Silver.text = "Silver";
+        Red.text = "Red";
+        Black.text = "Black";
     }
     IEnumerator revisedSwitching()
     {
