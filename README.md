@@ -27,6 +27,29 @@
     - 프레임 기반 <br>
     - 메리크리스마스 <br>
   </li>
+  <li> SSVEP_based_BCI_ver2 - 2019.12.30_ver (CES_2020 시연용) <br>
+    - 프레임 기반 <br>
+    - QR 이미지 변경 <br>
+    - 기능 선택 시 어느 기기인지 표시 <br>
+    - 전구 아이콘 더 굵게 <br>
+    - Help Silver Bulb 글씨 깨지는거 수정, 위아래 짤리는거 수정 <br>
+  </li>
+  <li> SSVEP_based_BCI_ver4 - 2019.12.31_ver (CES_2020 시연용) <br>
+    - QR씬 기기 뭐 고른 것인지 기능 선택 창에서 표시 <br>
+    - QR씬 2번 자극 안깜박임 수정<br>
+  </li>
+  <li> SSVEP_based_BCI_ver5 - 2019.1.2_ver (CES_2020 시연용) <br>
+    - QR 씬 Silver는 (200f/255f, 200f/255f, 200f/255f)로 Black은 (70f/255f, 70f/255f, 70f/255f)로<br>
+    - SSVEP 씬 Black Light (70f/255f, 70f/255f, 70f/255f) <br>
+    - Eye 씬 Help에 1, 8, 7, 6패턴을 0(RVC), 1(Silver), 2(Black), 3(Red) 패턴으로 <br>
+    - SSVEP 씬 2번 자극 White를 Silver로 모두 통일하여 수정 <br>
+  </li>
+  <li> SSVEP_based_BCI_ver6 - 2019.1.2_ver (CES_2020 시연용) <br>
+    - Vuforia 타겟 수정 (Red Light)<br>
+  </li>
+  <li> SSVEP_based_BCI_ver7 - 2019.1.2_ver (CES_2020 시연용) <br>
+    - <br>
+  </li>
 </ol>
 
 ## 해결해야 할 사항
