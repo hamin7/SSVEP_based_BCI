@@ -47,7 +47,7 @@
   <li> SSVEP_based_BCI_ver6 - 2019.1.2_ver (CES_2020 시연용) <br>
     - Vuforia 타겟 수정 (Red Light)<br>
     - 기능 선택 창 기기 명령어 선택 두 개 뜨는 것 수정<br>
-    - SSVEP Silver 조금 <br>
+    - SSVEP Silver 조금 어둡게<br>
   </li>
   <li> SSVEP_based_BCI_ver7 - 2019.1.2_ver (CES_2020 시연용) <br>
     - <br>
