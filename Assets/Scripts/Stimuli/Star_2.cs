@@ -22,7 +22,7 @@ public class Star_2 : MonoBehaviour
         GOtransform = gameObject.GetComponent<Transform>();
         GOspriterenderer = gameObject.GetComponent<SpriteRenderer>();
 
-        /*HM 중요  */
+        /* 중요  */
         if (gameObject.name == "Star_4" || transform.root.name == "ApplianceStimuli")
             Icon = transform.GetChild(0).transform.GetComponent<SpriteRenderer>();
 

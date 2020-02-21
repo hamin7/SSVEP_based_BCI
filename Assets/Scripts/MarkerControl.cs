@@ -13,7 +13,7 @@ public class MarkerControl : MonoBehaviour {
 
     public static GameObject[] Markers; //세개의 마커 
 
-    /* HM 중요 */
+    /* 중요 */
     public static string SelectedMarker = null; //Boundingbox에서 select처리된 마커의 이름  
 
     public static GameObject stimuliParent; //자극들의 root 부모 

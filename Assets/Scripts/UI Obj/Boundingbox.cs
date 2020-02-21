@@ -50,7 +50,7 @@ public class Boundingbox : MonoBehaviour , IFocusable {
                 
                 MarkerControl.onSelect = true; //UDPGeneration 의 Update()내에서 캐치하여 UDP값 전송.
 
-                /* HM 중요 */
+                /* 중요 */
                 MarkerControl.SelectedMarker = gameObject.transform.root.name;
 
 

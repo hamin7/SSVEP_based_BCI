@@ -70,7 +70,7 @@ public class UDPGeneration : MonoBehaviour {
                     DataStringMatlab = "8";
                 }
                 /*
-                 * HM중요 - 기기 추가시 이런 형태로 else if 문단 하나 더 추가해주기
+                 * 중요 - 기기 추가시 이런 형태로 else if 문단 하나 더 추가해주기
                 else if (MarkerControl.SelectedMarker == "게임오브젝트 이름")
                 {
                     DataString = "4";
@@ -86,7 +86,7 @@ public class UDPGeneration : MonoBehaviour {
                 //IP 주소: 192.168.1.214  포트번호: 8054         트라이얼 받는 포트번호:  8053    홀로렌즈는 8052 포트 열어서 듣기
                 //IP주소 왼쪽 컴 동적할당이라 ip 주소 계속 바뀜
 
-                /*HM 중요  IP 주소 변경: UDP 값을 보내야하는 IP 주소와 포트번호가 바뀔경우 */
+                /* 중요  IP 주소 변경: UDP 값을 보내야하는 IP 주소와 포트번호가 바뀔경우 */
                 //어떤 기기가 선택됐느냐에 따라 약속된 값을 매트랩과 미들웨어에 보내주는 코드
                 //comm.SendUDPMessage(string IP주소, string 포트번호, );
 
@@ -114,7 +114,7 @@ public class UDPGeneration : MonoBehaviour {
                 var dataBytesMatlab = System.Text.Encoding.UTF8.GetBytes(DataStringMatlab);
                 UDPCommunication comm = UDPCommGameObject.GetComponent<UDPCommunication>();
 
-                /*HM 중요 IP 주소 변경: UDP 값을 보내야하는 IP 주소와 포트번호가 바뀔경우 */
+                /* 중요 IP 주소 변경: UDP 값을 보내야하는 IP 주소와 포트번호가 바뀔경우 */
                 //comm.SendUDPMessage(string IP주소, string 포트번호, );
                 //매트랩에 시작 트리거 보내주기
 #if !UNITY_EDITOR
@@ -128,7 +128,7 @@ public class UDPGeneration : MonoBehaviour {
         if (first.checker_1 == 1 && first.checker_2 == 0)
         {
             DataStringMiddleWare = firstSphere.end;
-            //HM 추가함.
+            // 추가함.
             DataStringMatlab = "b";
             Debug.Log("Ending Point: " + firstSphere.end + "\nDataString: " + DataStringMiddleWare);
 
@@ -140,7 +140,7 @@ public class UDPGeneration : MonoBehaviour {
                 var dataBytesMatlab = System.Text.Encoding.UTF8.GetBytes(DataStringMatlab);
                 UDPCommunication comm = UDPCommGameObject.GetComponent<UDPCommunication>();
 
-                /*HM 중요 IP 주소 변경: UDP 값을 보내야하는 IP 주소와 포트번호가 바뀔경우 */
+                /* 중요 IP 주소 변경: UDP 값을 보내야하는 IP 주소와 포트번호가 바뀔경우 */
                 //comm.SendUDPMessage(string IP주소, string 포트번호, );
                 //매트랩에 끝 트리거 보내주기
 #if !UNITY_EDITOR
