@@ -58,4 +58,3 @@ SSVEP|기기에 해당하는 SSVEP 자극 응시|3개|눈앞에 없는 기기 �
            </tr>
        </tbody>
 </table>
-Try it yourself at https://jsfiddle.net/7h89y55r/
