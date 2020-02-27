@@ -29,3 +29,33 @@ SSVEP|기기에 해당하는 SSVEP 자극 응시|3개|눈앞에 없는 기기 �
 
 기기 번호|기기명|명령 번호|제어 명령|기타
 -|-|-|-|-
+
+<table>
+       <thead>
+           <tr>
+               <th>Layer 1</th>
+               <th>Layer 2</th>
+               <th>Layer 3</th>
+               <th>Layer 3</th>
+               <th>Layer 3</th>
+           </tr>
+       </thead>
+       <tbody>
+           <tr>
+               <td rowspan=4>L1 Name</td>
+               <td rowspan=2>L2 Name A</td>
+               <td>L3 Name A</td>
+           </tr>
+           <tr>
+               <td>L3 Name B</td>
+           </tr>
+           <tr>
+               <td rowspan=2>L2 Name B</td>
+               <td>L3 Name C</td>
+           </tr>
+           <tr>
+               <td>L3 Name D</td>
+           </tr>
+       </tbody>
+</table>
+Try it yourself at https://jsfiddle.net/7h89y55r/
